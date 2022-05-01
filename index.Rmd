@@ -1,0 +1,17 @@
+--- 
+title: "Teaching R & Data Science Interactively"
+author: "Peter Baumgartner"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Notes for a possible future book on using the `learnr` and `gradethis` packages.
+link-citations: yes
+github-repo: petzi53/teach-r-book
+---
+
+# Preface
+

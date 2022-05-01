@@ -1,0 +1,96 @@
+/* colored boxes with icons ----------------------------------------------- */
+
+/* Color code defined for variables --------------------------------------- */
+:root {
+  --primary:        #027BFF;
+  --secondary:      #6C757D;
+  --success-bg:     #dff0d8;
+  --success-fg:     #468847;
+  --stop:           #DC3545;
+  --stop-bg:        #f2dede;
+  --stop-fg:        #b94a48;
+  --warning-bg:     #fcf8e3;
+  --warning-fg:     #d1b37c;
+  --info:           #25A2B8;
+  --info-bg:        #D9EDF7;
+  --info-fg:        #317EAC;
+}
+
+/* Colored boxes with icons ----------------------------------------------- */
+
+.successbox, .infobox, .warningbox, .stopbox, .todobox, .errorbox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+
+.successbox {
+  border: 2px solid var(--success-fg);
+  background: var(--success-bg) 5px center/3em no-repeat;
+  background-image: url("../img/icons/checkmark.png");
+}
+
+.infobox {
+  border: 2px solid var(--info-fg);
+  background: var(--info-bg) 5px center/3em no-repeat;
+  background-image: url("../img/icons/info.png");
+}
+
+.warningbox {
+  border: 2px solid var(--warning-fg);
+  background: var(--warning-bg) 5px center/3em no-repeat;
+  background-image: url("../img/icons/warning.png");
+}
+
+.stopbox {
+  border: 2px solid var(--stop-fg);
+  background: var(--stop-bg) 5px center/3em no-repeat;
+  background-image: url("../img/icons/stop.png");
+}
+
+.todobox {
+  border: 2px solid black;
+  background: pink 5px center/3em no-repeat;
+  background-image: url("../img/icons/todo.png");
+}
+
+.errorbox {
+  border: 2px solid var(--stop-fg);
+  background: var(--stop-bg) 5px center/3em no-repeat;
+  background-image: url("../img/icons/error.png");
+}
+
+
+/* Colored boxes without icons -------------------------------------------- */
+
+.greenbox, .bluebox, .orangebox, .redbox, .greybox, .graybox {
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.bluebox {
+  background-color: var(--info-bg); /* #e6f0ff; */
+
+}
+
+.greenbox {
+  background-color: var(--success-bg); /* #d9ffe9; */
+}
+
+.orangebox {
+  background-color: var(--warning-bg); /* #ffeedf; */
+}
+
+.redbox {
+  background-color: var(--stop-bg);
+}
+
+.greybox, .graybox {
+  background-color: whitesmoke;
+}
+
+
+
+

@@ -1,0 +1,21 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+
+
+pre code {
+  /* white-space: inherit; ORIGINAL LINE replace y line below */
+  /* see: https://bookdown.org/yihui/rmarkdown-cookbook/text-width.html */
+  white-space: pre-wrap;
+}
+
+
